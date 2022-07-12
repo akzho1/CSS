@@ -1,10 +1,11 @@
 body{
-  background-color: rgb(117, 54, 177);
+  background-color: rgb(216, 216, 216);
 }
 
 
 .container{
   max-width: 760px;
+  border-radius: 100%;
   margin: auto;
  
 }
@@ -25,4 +26,13 @@ body{
 .red{
   background-color: red;
 }
+
+.red{
+  -moz-transform: scale(1.4) rotate(28deg) translate(-15px, -5px) skew(32deg, -23deg);
+  -webkit-transform: scale(1.4) rotate(28deg) translate(-15px, -5px) skew(32deg, -23deg);
+  -o-transform: scale(1.4) rotate(28deg) translate(-15px, -5px) skew(32deg, -23deg);
+  -ms-transform: scale(1.4) rotate(28deg) translate(-15px, -5px) skew(32deg, -23deg);
+  transform: scale(1.4) rotate(28deg) translate(-15px, -5px) skew(32deg, -23deg);
+}
+
 
